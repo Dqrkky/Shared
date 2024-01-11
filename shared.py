@@ -3,7 +3,6 @@ import json
 
 class Shared:
     def __init__(self, rss=None):
-        self.rss = None
         if rss != None:
             self.rss=rss
     def get_request_headers_json(self):
